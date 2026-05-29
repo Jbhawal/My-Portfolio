@@ -1,0 +1,6 @@
+{
+  "name": "Gemini AI Workspace",
+  "description": "An elegant, production-ready workspace for interacting with Gemini. Features a multimodal playground, preset generation utilities, and Google Search grounding metadata visibility.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
