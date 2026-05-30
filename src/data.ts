@@ -13,24 +13,21 @@ export const resumeData = {
   },
   "experience": [
     {
-      "company": "Indian Institute of Technology, Ropar",
+      "company": "IIT Ropar",
       "role": "Intern - Vicharanashala",
       "dates": "May 2026 - Present",
-      "location": "IIT Ropar",
       "bullets": []
     },
     {
-      "company": "IT Centre, Eastern Railway",
+      "company": "Eastern Railway",
       "role": "Intern",
       "dates": "June 2025 - July 2025",
       "location": "Kolkata, India",
       "bullets": [
-        "Modernized IT Centre’s manual complaint process by developing a multi-role web-based Helpdesk System using PHP, MySQL, JavaScript enabling complaint tracking, status updates and feedback system, while reducing communication delays and gaining exposure to public sector IT operations.",
-        "Designed and developed a Helpdesk Complaint Management System using PHP, MySQL, HTML, CSS, and JavaScript to streamline internal issue reporting and resolution.",
+        "Modernized IT Centre's manual complaint process by developing a multi-role web-based Helpdesk System using PHP, MySQL, JavaScript enabling complaint tracking, status updates and feedback system, while reducing communication delays and gaining exposure to public sector IT operations.",
         "Implemented features like complaint tracking, status updates, and user-officer-admin interaction, improving system transparency and usability.",
         "Gained hands-on experience with WAMP server, backend development, and relational database management.",
-        "Observed and assisted with hardware and networking maintenance tasks at the railway HQ, learning how IT supports mission-critical public infrastructure.",
-        "Strengthened understanding of how digital tools are integrated into large-scale government operations."
+        "Observed and assisted with hardware and networking maintenance tasks at the railway HQ, learning how IT supports mission-critical public infrastructure."
       ]
     },
     {
@@ -38,14 +35,23 @@ export const resumeData = {
       "role": "Writer/Editor",
       "dates": "July 2024 - March 2025",
       "location": "",
-      "bullets": []
+      "bullets": [
+        "A student-led organization focused on content creation and collaboration.", 
+        "Wrote and edited articles on student-related and general topics while collaborating with the editorial team to ensure clarity and quality.",
+        "Developed strong writing, proofreading, and communication skills through regular content work and deadlines."
+      ]
     },
     {
       "company": "Hack4Bengal 3.0",
       "role": "Evangelist",
       "dates": "May 2024 - July 2024",
       "location": "",
-      "bullets": []
+      "bullets": [
+        "A large-scale student hackathon initiative.",
+        "Promoted the event across student communities to increase participation and awareness.",
+        "Engaged with peers and tech communities to encourage registrations and active involvement.",
+        "Developed outreach, communication, and event promotion skills through real-world coordination."
+      ]
     }
   ],
   "projects": [
