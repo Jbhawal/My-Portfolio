@@ -9,7 +9,8 @@ export const resumeData = {
     "links": {
       "LinkedIn": "https://www.linkedin.com/in/jb-joyita-bhawal/",
       "GitHub": "https://github.com/Jbhawal"
-    }
+    },
+    "photo": "/assets/images/profile.jpg"
   },
   "experience": [
     {

@@ -17,9 +17,18 @@ export default function Hero() {
           className="w-32 h-32 md:w-48 md:h-48 rounded-full border border-neutral-800 bg-neutral-900/50 backdrop-blur-md flex items-center justify-center overflow-hidden shrink-0 shadow-[0_0_40px_rgba(100,150,255,0.1)] relative"
         >
           <div className="absolute inset-0 bg-gradient-to-tr from-blue-500/10 to-transparent" />
-          <span className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-white to-neutral-500">
-            {name.split(' ').map(n => n[0]).join('')}
-          </span>
+          {resumeData.basics.photo ? (
+            <img
+              src={resumeData.basics.photo}
+              alt={name}
+              className="w-full h-full object-cover"
+              onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
+            />
+          ) : (
+            <span className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-br from-white to-neutral-500">
+              {name.split(' ').map(n => n[0]).join('')}
+            </span>
+          )}
         </motion.div>
 
         <div className="flex-1 space-y-6">
