@@ -60,10 +60,10 @@ export const resumeData = {
       "stack": "PHP, MySQL, HTML, CSS, JavaScript",
       "links": ["https://github.com/Jbhawal/Helpdesk"],
       "bullets": [
-        "Developed a web-based ticketing platform to replace legacy paper-based documentation, facilitating seamless complaint registration, tracking, and resolution.",
-        "Programmed custom multi-role authentication logic to ensure secure, distinct user journeys and data isolation for administrators, officers, and end-users.",
-        "Developed an automated Email Notification System that triggers real-time updates to complainants, maintaining constant communication throughout the ticket lifecycle.",
-        "Automated the generation of resolution logs, audit trails, and feedback reports to streamline administrative oversight and data auditing."
+        "Developed a web-based ticketing platform to replace paper-based systems, enabling complaint registration, tracking, and resolution.",
+        "Implemented multi-role authentication for secure and role-specific access (admin, officer, user).",
+        "Built an automated email notification system for real-time status updates throughout the ticket lifecycle.",
+        "Enabled automated generation of resolution logs, audit trails, and feedback reports for better oversight and analysis."
       ]
     },
     {
@@ -89,14 +89,14 @@ export const resumeData = {
   ],
   "skills": {
     "Programming Languages": ["Java", "Python", "SQL", "C"],
-    "Technologies": ["Git", "GitHub", "Microsoft Excel", "Power BI", "Figma", "Canva"],
+    "Technologies": ["Git", "GitHub", "Microsoft Excel", "Power BI", "Canva"],
     "Soft Skills": ["Adaptability", "Agile", "Collaboration", "Creativity", "Critical Thinking", "Time Management"],
-    "Other Skills (LinkedIn PDF)": ["Log Analysis", "Spreadsheets", "Data Visualization", "Bengali", "English", "Hindi"]
+    "Other Skills": ["Log Analysis", "Spreadsheets", "Data Visualization"]
   },
   "education": [
     {
       "institution": "MCKV Institute of Engineering",
-      "degree": "BTech- CSE / Bachelor of Technology - BTech, Computer Science",
+      "degree": "B.Tech- Computer Science and Engineering",
       "dates": "2023 - 2027",
       "score": "Current YGPA: 9.5"
     },
@@ -110,7 +110,7 @@ export const resumeData = {
       "institution": "H.M. Education Centre",
       "degree": "CBSE- X",
       "dates": "2021",
-      "score": "Percentage: 94"
+      "score": "Percentage: 93.8"
     }
   ],
   "certifications": [
@@ -129,10 +129,6 @@ export const resumeData = {
       "context": "LinkedIn PDF"
     },
     {
-      "title": "Postman API Fundamentals Student Expert",
-      "context": "LinkedIn PDF"
-    },
-    {
       "title": "Data Analysis Using Python",
       "context": "LinkedIn PDF"
     },
@@ -147,6 +143,10 @@ export const resumeData = {
   ],
   "achievements": [
     {
+      "title": "IEEE Membership",
+      "context": "Received through college referral for professional academic excellence."
+    },
+    {
       "title": "IEEESOC Summer of Code 2025 (SoC)",
       "context": "Top 50 (#26) among 3000+ registrations. Recognized for impactful open-source contributions and strong development skills."
     },
@@ -158,14 +158,6 @@ export const resumeData = {
       "title": "Hacktoberfest 2025",
       "context": "Earned Super Contributor badge with 6+ PRs and a tree in my name."
     },
-    {
-      "title": "IEEE Membership",
-      "context": "Received through college referral for professional academic excellence."
-    },
-    {
-      "title": "School Subject Topper-Mathematics",
-      "context": "LinkedIn PDF Honors-Awards"
-    }
   ],
   "extra": []
 };
